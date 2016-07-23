@@ -11,7 +11,7 @@
 
 <h1>Simple Calculator WebApp</h1>
 
-<form target="/CalcServlet" method=post>
+<form action="CalcServlet" method=post>
 	Enter First Number <BR>
 	<input type=text name=txtNumber1><BR><BR>
 
