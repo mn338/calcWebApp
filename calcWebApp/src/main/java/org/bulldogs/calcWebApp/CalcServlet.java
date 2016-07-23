@@ -36,7 +36,7 @@ public class CalcServlet extends HttpServlet {
 		else if (operator.equalsIgnoreCase("sub"))
 		result = c.sub(n1, n2);
 
-		else if (operator.equalsIgnoreCase("add"))
+		else if (operator.equalsIgnoreCase("mul"))
 		result = c.mul(n1, n2);
 		
 		out.println("<h2>Result: " + result + "</h2>");
