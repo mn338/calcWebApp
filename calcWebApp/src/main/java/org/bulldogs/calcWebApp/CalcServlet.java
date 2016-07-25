@@ -6,16 +6,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class CalcServlet
- */
-public class CalcServlet extends HttpServlet {
+public class CalcServlet extends HttpServlet 
+{
 	private static final long serialVersionUID = 1L;
        
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+	throws ServletException, IOException 
 	{
 		PrintWriter out = response.getWriter();
 		out.println("<h1>Simple Calculator WebApp</h1>");
@@ -41,5 +37,4 @@ public class CalcServlet extends HttpServlet {
 		
 		out.println("<h2>Result: " + result + "</h2>");
 	}
-
 }
